@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cad0ff;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px 2px 0px;
+  border: solid 1px black;
+  width: 95%;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+
+#information {
+  width: 95%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 8px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#information h2 {
+  font-size: 25px;
+}
+
+#information p {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+#app {
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  border: solid 1px #ccc;
+  padding: 20px;
+}
+
+#time {
+  text-align: center;
+}
+
+#time #value {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#tasks,
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 1px #ccc;
+  width: 300px;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+div {
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  text-align: justify;
+  padding: 10px;
+  width: 50%;
+  justify-content: center;
+}
+
+.done-button {
+  border: none;
+  background-color: #30ed2d;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
